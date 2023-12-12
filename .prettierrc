@@ -1,0 +1,23 @@
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "printWidth": 100,
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": ["*.toml"],
+      "options": { "printWidth": 40 }
+    },
+    {
+      "files": ["tests/*.rs"],
+      "options": { "printWidth": 80 }
+    },
+    {
+      "files": ["*.json", "**/*.json", "*.code-workspace"],
+      "options": {
+        "printWidth": 40,
+        "tabWidth": 2
+      }
+    }
+  ]
+}
