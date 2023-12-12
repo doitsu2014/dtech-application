@@ -3,3 +3,5 @@
 
 !**/bin
 !**/tailwind.css
+
+**/node_modules
